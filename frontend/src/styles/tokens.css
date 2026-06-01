@@ -1,0 +1,51 @@
+:root {
+  --surface-primary: #fafaf7;
+  --surface-card: #ffffff;
+  --surface-muted: #f2f1ec;
+  --surface-tinted: #f4f1ea;
+  --surface-inverse: #0f1620;
+
+  --ink-primary: #1a1a1a;
+  --ink-secondary: #4a4a4a;
+  --ink-muted: #8a8a8a;
+  --ink-inverse: #fafaf7;
+
+  --border-subtle: #e6e3db;
+  --border-strong: #d4d0c4;
+
+  --accent-primary: #1f4e79;
+  --accent-soft: #eaf1f8;
+  --accent-teal: #2a7f8c;
+
+  --signal-positive: #3f7d58;
+  --signal-positive-soft: #e8f5e9;
+  --signal-warn: #b8732a;
+  --signal-warn-soft: #fff3e0;
+  --signal-alert: #b43a3a;
+  --signal-alert-soft: #ffebee;
+
+  --font-heading: "Newsreader", Georgia, serif;
+  --font-body: "Geist", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "Geist Mono", "SFMono-Regular", monospace;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+
+  --radius-card: 8px;
+  --radius-card-mobile: 10px;
+  --radius-pill: 9999px;
+  --radius-button: 6px;
+  --radius-input: 6px;
+  --radius-bar: 3px;
+
+  --shadow-sm: 0 1px 3px rgba(15, 22, 32, 0.03);
+  --shadow-md: 0 4px 12px rgba(15, 22, 32, 0.06);
+  --shadow-card: 0 1px 3px rgba(15, 22, 32, 0.03),
+    0 12px 32px rgba(15, 22, 32, 0.05);
+}

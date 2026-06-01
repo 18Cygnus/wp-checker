@@ -1,0 +1,131 @@
+{
+  "analysis_id": "f3e3d79a-8b5d-48f0-98fd-4de14bc6d0b1",
+  "filename": "aurora-chain-whitepaper.pdf",
+  "file_size_bytes": 2516582,
+  "page_count": 36,
+  "analysis_time_seconds": 22.4,
+  "credibility_score": 67,
+  "credibility_label": "poor",
+  "profile_label": "hybrid",
+  "profile_confidence": "medium",
+  "profile_similarity": {
+    "technical_only": 0.72,
+    "investor_oriented": 0.69,
+    "hybrid": 0.84,
+    "undetermined": 0.33
+  },
+  "label_distribution": {
+    "introduction": 0.09,
+    "problem_statement": 0.11,
+    "solution_proposal": 0.14,
+    "technical_architecture": 0.19,
+    "tokenomics": 0.16,
+    "roadmap": 0.08,
+    "team_and_partnerships": 0.07,
+    "governance": 0.05,
+    "risks_and_compliance": 0.11
+  },
+  "signal_breakdown": {
+    "profile_aware_coverage": 0.67,
+    "plagiarism": 0.71,
+    "linguistic": 0.62,
+    "keyword": 0.58,
+    "content_balance": 0.59
+  },
+  "coverage_detail": {
+    "profile_used": "hybrid",
+    "tiers": {
+      "core": {
+        "point_per_item": 2,
+        "sections": [
+          { "label": "introduction", "detected": true },
+          { "label": "solution_proposal", "detected": true },
+          { "label": "technical_architecture", "detected": true },
+          { "label": "tokenomics", "detected": true }
+        ]
+      },
+      "supporting": {
+        "point_per_item": 1,
+        "sections": [
+          { "label": "problem_statement", "detected": true },
+          { "label": "roadmap", "detected": false },
+          { "label": "team_and_partnerships", "detected": true }
+        ]
+      },
+      "optional": {
+        "point_per_item": 0.5,
+        "sections": [
+          { "label": "governance", "detected": false },
+          { "label": "risks_and_compliance", "detected": true }
+        ]
+      }
+    },
+    "achieved_score": 10.5,
+    "max_score": 12,
+    "percentage": 87.5
+  },
+  "sections": [
+    { "index": 1, "title": "Sampul Dokumen", "classified_label": "introduction", "confidence": 0.84, "body": null },
+    { "index": 2, "title": "Ringkasan Eksekutif", "classified_label": "introduction", "confidence": 0.91, "body": "Aurora Chain adalah protokol layer-2 berbasis modular yang dirancang untuk menyelesaikan fragmentasi likuiditas lintas jaringan blockchain. Dokumen ini menyajikan visi teknis, model ekonomi token, dan roadmap implementasi Aurora Chain menuju adopsi institusional pada 2026–2027." },
+    { "index": 3, "title": "Masalah Likuiditas Lintas Rantai", "classified_label": "problem_statement", "confidence": 0.89, "body": "Ekosistem multi-chain saat ini menghadapi masalah fragmentasi likuiditas yang signifikan. Pengguna dan protokol DeFi terpaksa mengelola aset di lebih dari 40 jaringan berbeda tanpa mekanisme agregasi yang efisien, mengakibatkan slippage tinggi dan inefisiensi modal mencapai 30–40% dari total value locked (TVL) lintas ekosistem." },
+    { "index": 4, "title": "Fragmentasi Data Validator", "classified_label": "problem_statement", "confidence": 0.78, "body": "Validator pada jaringan proof-of-stake terfragmentasi menghadapi ketidakpastian data state dari chain lain, menyebabkan latensi finalisasi yang tidak konsisten. Penelitian internal menunjukkan bahwa 62% transaksi lintas-chain mengalami penundaan lebih dari 45 detik akibat ketergantungan pada oracle eksternal yang tidak tersinkronisasi." },
+    { "index": 5, "title": "Visi Aurora Chain", "classified_label": "solution_proposal", "confidence": 0.86, "body": "Aurora Chain memperkenalkan paradigma 'unified execution layer' — sebuah lapisan eksekusi tunggal yang mengabstraksikan kompleksitas multi-chain dari perspektif pengguna dan developer. Dengan memanfaatkan teknologi ZK-proof untuk verifikasi state lintas jaringan, Aurora Chain memungkinkan transaksi atomic yang dapat diselesaikan dalam satu blok tanpa kepercayaan pihak ketiga." },
+    { "index": 6, "title": "Arsitektur Jembatan Modular", "classified_label": "technical_architecture", "confidence": 0.94, "body": "Jembatan modular Aurora dibangun di atas tiga komponen utama: (1) Light Client Aggregator yang memverifikasi header block dari 12 jaringan secara paralel, (2) Merkle State Prover berbasis ZK-SNARK dengan waktu pembuktian rata-rata 2.3 detik, dan (3) Relay Network terdesentralisasi dengan 200+ node relayer yang diinsentivasi melalui fee sharing." },
+    { "index": 7, "title": "Lapisan Eksekusi Off-Chain", "classified_label": "technical_architecture", "confidence": 0.92, "body": "Transaksi dieksekusi di luar rantai menggunakan Optimistic Execution Engine (OEE) yang memproses hingga 50.000 TPS dengan latensi sub-100ms. Setiap batch transaksi dikompres menggunakan algoritma Delta-Encoding sebelum diposting ke L1, mengurangi biaya calldata hingga 85% dibanding rollup konvensional." },
+    { "index": 8, "title": "Mesin Konsensus Delegated Mesh", "classified_label": "technical_architecture", "confidence": 0.88, "body": "Delegated Mesh Consensus (DMC) adalah mekanisme konsensus hibrida yang menggabungkan BFT untuk finalisasi cepat dengan PoS untuk keamanan jangka panjang. Validator dipilih melalui rotasi epoch setiap 2.048 blok, dengan threshold stake minimum 32.000 ARC untuk partisipasi aktif." },
+    { "index": 9, "title": "Insentif Validator", "classified_label": "tokenomics", "confidence": 0.91, "body": "Validator menerima reward blok sebesar 2 ARC per blok yang divalidasi ditambah 40% dari fee transaksi dalam epoch tersebut. Validator yang berpartisipasi dalam cross-chain relay mendapat multiplier 1.5x. Penalti slashing diterapkan untuk downtime lebih dari 4 jam (0.1% stake) dan double-signing (5% stake)." },
+    { "index": 10, "title": "Distribusi Token ARC", "classified_label": "tokenomics", "confidence": 0.95, "body": "Total supply ARC ditetapkan pada 1.000.000.000 token dengan distribusi: 25% untuk pengembangan ekosistem (vesting 4 tahun), 20% untuk tim dan advisor (cliff 12 bulan, vesting 36 bulan), 20% untuk penjualan publik, 15% untuk cadangan protokol, 10% untuk likuiditas awal, dan 10% untuk program validator genesis." },
+    { "index": 11, "title": "Utilitas Token dalam Governance", "classified_label": "tokenomics", "confidence": 0.82, "body": "Token ARC berfungsi sebagai instrumen governance on-chain. Pemegang dengan minimal 1.000 ARC dapat mengajukan proposal; voting dilakukan secara kuadratik untuk mencegah konsentrasi kekuasaan. Keputusan parameter kritis seperti perubahan fee base dan upgrade kontrak memerlukan quorum 15% dari circulating supply." },
+    { "index": 12, "title": "Roadmap Produk 2026", "classified_label": "roadmap", "confidence": 0.71, "body": "Q1 2026: Launch mainnet Aurora Bridge v1 mendukung 5 jaringan (Ethereum, Arbitrum, Optimism, Polygon, BSC). Q2 2026: Integrasi 7 jaringan tambahan termasuk Solana dan Cosmos via IBC adapter. Q3 2026: Rilis SDK developer dan program grant $10M untuk ekosistem. Q4 2026: Target TVL $500M dan 100.000 pengguna aktif bulanan." },
+    { "index": 13, "title": "Milestone Adopsi Institusional", "classified_label": "roadmap", "confidence": 0.69, "body": "Aurora Chain menargetkan kemitraan dengan 5 institusi keuangan tier-1 untuk pilot program DeFi institusional pada H1 2027. Program ini mencakup integrasi Aurora sebagai settlement layer untuk transaksi repo tokenisasi dan obligasi on-chain. Diskusi awal telah dilakukan dengan dua lembaga di Singapura dan satu di Swiss." },
+    { "index": 14, "title": "Profil Pendiri", "classified_label": "team_and_partnerships", "confidence": 0.77, "body": "Tim inti terdiri dari 12 engineer dengan pengalaman rata-rata 8 tahun di bidang distributed systems dan kriptografi. CEO sebelumnya memimpin tim infrastruktur di protokol L2 dengan TVL >$2B. CTO memiliki 6 publikasi peer-reviewed di bidang zero-knowledge proofs dan berkontribusi pada implementasi referensi groth16." },
+    { "index": 15, "title": "Penasihat Teknis", "classified_label": "team_and_partnerships", "confidence": 0.73, "body": "Dewan penasihat terdiri dari 4 anggota: dua peneliti dari universitas teknik terkemuka di Eropa, satu mantan engineer inti Ethereum Foundation, dan satu ahli regulasi keuangan digital yang sebelumnya menjabat sebagai konsultan MAS Singapura. Penasihat memberikan kontribusi minimal 10 jam per bulan berdasarkan perjanjian resmi." },
+    { "index": 16, "title": "Model Tata Kelola", "classified_label": "governance", "confidence": 0.58, "body": "Governance Aurora Chain beroperasi dalam tiga tingkatan: (1) Protocol Governance untuk perubahan core protocol, (2) Treasury Governance untuk alokasi dana ekosistem, dan (3) Parameter Governance untuk penyesuaian variabel operasional. Setiap level memiliki quorum dan threshold berbeda sesuai dampak yang ditimbulkan." },
+    { "index": 17, "title": "Hak Suara dan Proposal", "classified_label": "governance", "confidence": 0.63, "body": "Proses proposal mengikuti siklus 14 hari: 3 hari diskusi forum, 2 hari temperature check (snapshot), dan 7 hari voting on-chain, diikuti 2 hari timelock sebelum eksekusi. Proposal yang gagal dalam temperature check dapat direvisi dan diajukan ulang setelah 30 hari." },
+    { "index": 18, "title": "Risiko Operasional", "classified_label": "risks_and_compliance", "confidence": 0.81, "body": "Risiko operasional utama mencakup: (1) Ketersediaan relayer — dimitigasi dengan minimum 50 relayer aktif per epoch dan sistem rotasi otomatis; (2) Latensi proof generation — sistem fallback ke optimistic mode jika ZK prover mengalami downtime >30 detik; (3) Smart contract bug — audit menyeluruh oleh dua firma audit independen dijadwalkan sebelum mainnet." },
+    { "index": 19, "title": "Risiko Regulasi", "classified_label": "risks_and_compliance", "confidence": 0.83, "body": "Protokol beroperasi dalam kerangka hukum yang masih berkembang untuk aset digital lintas yurisdiksi. Aurora Foundation berkedudukan di Swiss dan tunduk pada regulasi FINMA. Tim legal secara aktif memantau perkembangan MiCA di Uni Eropa dan regulasi stablecoin di Amerika Serikat yang dapat mempengaruhi model operasional jembatan." },
+    { "index": 20, "title": "Kepatuhan Yurisdiksi", "classified_label": "risks_and_compliance", "confidence": 0.74, "body": "Pengguna dari yurisdiksi tertentu (AS, Iran, Korea Utara, dan negara sanksi OFAC) dibatasi aksesnya terhadap layanan Aurora melalui mekanisme geo-filtering pada antarmuka resmi. Protokol on-chain bersifat permissionless namun antarmuka resmi menerapkan compliance layer sesuai panduan hukum yang berlaku." },
+    { "index": 21, "title": "Lampiran Parameter Jaringan", "classified_label": "technical_architecture", "confidence": 0.67, "body": "Tabel parameter teknis jaringan: Block time 2 detik, Epoch length 2.048 blok (~68 menit), Max validator set 150 node, Minimum stake 32.000 ARC, Slashing window 14 hari, Challenge period (optimistic) 7 hari, ZK proof time target <3 detik, Max calldata per batch 128KB." },
+    { "index": 22, "title": "Penutup", "classified_label": "introduction", "confidence": 0.55, "body": "Aurora Chain merepresentasikan langkah signifikan menuju infrastruktur blockchain yang terpadu dan efisien. Tim berkomitmen untuk membangun protokol yang aman, skalabel, dan dapat diakses oleh semua pelaku ekosistem. Pembaruan berkala akan dipublikasikan melalui kanal resmi. Dokumen ini bukan merupakan penawaran investasi." }
+  ],
+  "keywords": [
+    { "term": "cross-chain", "score": 0.91 },
+    { "term": "validator", "score": 0.86 },
+    { "term": "token emission", "score": 0.79 },
+    { "term": "liquidity routing", "score": 0.75 },
+    { "term": "consensus mesh", "score": 0.73 },
+    { "term": "governance proposal", "score": 0.69 },
+    { "term": "staking reward", "score": 0.65 },
+    { "term": "bridge security", "score": 0.64 },
+    { "term": "institutional settlement", "score": 0.58 },
+    { "term": "regulatory framework", "score": 0.52 }
+  ],
+  "keywords_stopword_scored": [
+    { "term": "cross-chain", "score": 0.91 },
+    { "term": "validator", "score": 0.86 },
+    { "term": "token emission", "score": 0.79 },
+    { "term": "liquidity routing", "score": 0.75 },
+    { "term": "consensus mesh", "score": 0.73 },
+    { "term": "governance proposal", "score": 0.69 },
+    { "term": "staking reward", "score": 0.65 },
+    { "term": "bridge security", "score": 0.64 },
+    { "term": "institutional settlement", "score": 0.58 },
+    { "term": "regulatory framework", "score": 0.52 },
+    { "term": "aurora chain", "score": 0.49 },
+    { "term": "delegated mesh", "score": 0.47 },
+    { "term": "off-chain execution", "score": 0.44 },
+    { "term": "modular bridge", "score": 0.41 },
+    { "term": "token distribution", "score": 0.39 },
+    { "term": "arc token", "score": 0.37 },
+    { "term": "validator incentive", "score": 0.35 },
+    { "term": "voting rights", "score": 0.33 },
+    { "term": "operational risk", "score": 0.31 },
+    { "term": "compliance", "score": 0.28 }
+  ],
+  "red_flags": [
+    "Bagian roadmap terdeteksi, tetapi detail milestone masih sangat ringkas dan kurang terukur.",
+    "Bagian tata kelola muncul dengan confidence rendah, sehingga mekanisme voting perlu ditelaah manual.",
+    "Skor keseimbangan konten rendah karena fokus teknis mendominasi penjelasan risiko dan adopsi pasar."
+  ],
+  "investor_summary": "## Asesmen\n\nWhitepaper ini menunjukkan **fondasi teknis yang cukup jelas**, terutama pada arsitektur jaringan, insentif validator, dan desain token. Namun, distribusi konten belum seimbang karena aspek implementasi pasar, roadmap terukur, dan tata kelola masih dijelaskan secara singkat.\n\n## Temuan Penting\n\n- Bagian teknis dan tokenomics relatif kuat serta konsisten.\n- Risiko regulasi sudah disebutkan, tetapi belum disertai strategi mitigasi yang rinci.\n- Profil dokumen cenderung **hybrid**, tetapi narasi investor belum sekuat paparan teknis.\n\n## Implikasi bagi Investor\n\nDokumen ini dapat menjadi titik awal evaluasi, tetapi belum cukup untuk menjadi dasar keputusan investasi tanpa verifikasi tambahan pada roadmap, governance, dan kesiapan eksekusi tim."
+}

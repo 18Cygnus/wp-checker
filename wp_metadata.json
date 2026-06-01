@@ -1,0 +1,452 @@
+[
+  {
+    "id": "WP_001",
+    "nama_proyek": "FastToken",
+    "quality_label": "good",
+    "profile_label": "hybrid",
+    "filename": "hybrid_fasttoken.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 53,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_002",
+    "nama_proyek": "Humanity Protocol",
+    "quality_label": "good",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Humanity.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 48,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_003",
+    "nama_proyek": "Kaia",
+    "quality_label": "good",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Kaia.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 27,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_004",
+    "nama_proyek": "Kite AI",
+    "quality_label": "good",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Kite.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 33,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_005",
+    "nama_proyek": "Sonic",
+    "quality_label": "good",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Sonic.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 20,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_006",
+    "nama_proyek": "BGB (Bitget Token)",
+    "quality_label": "good",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_BGB.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 14,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_007",
+    "nama_proyek": "GoMining",
+    "quality_label": "good",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_Gomining.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 35,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_008",
+    "nama_proyek": "Horizen",
+    "quality_label": "good",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_Horizen.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 24,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_009",
+    "nama_proyek": "Vitalum",
+    "quality_label": "good",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_Vitalum.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 58,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_010",
+    "nama_proyek": "Zebec",
+    "quality_label": "good",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_Zebec.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 32,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_011",
+    "nama_proyek": "Aave",
+    "quality_label": "good",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Aave.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 23,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_012",
+    "nama_proyek": "Avalanche",
+    "quality_label": "good",
+    "profile_label": "technical_only",
+    "filename": "technical_only_AVAX.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 7,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_013",
+    "nama_proyek": "Bitcoin",
+    "quality_label": "good",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Bitcoin.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 9,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_014",
+    "nama_proyek": "Cosmos",
+    "quality_label": "good",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Cosmos.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 53,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_015",
+    "nama_proyek": "Ethereum",
+    "quality_label": "good",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Ethereum.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 36,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_016",
+    "nama_proyek": "LayerZero",
+    "quality_label": "good",
+    "profile_label": "technical_only",
+    "filename": "technical_only_LayerZero.pdf",
+    "folder": "whitepapers/good/",
+    "jumlah_halaman": 12,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_017",
+    "nama_proyek": "AraraCoin",
+    "quality_label": "average",
+    "profile_label": "hybrid",
+    "filename": "hybrid_araracoin.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 13,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_018",
+    "nama_proyek": "AWE",
+    "quality_label": "average",
+    "profile_label": "technical_only",
+    "filename": "technical_only_AWE.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 13,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_019",
+    "nama_proyek": "Canton Network",
+    "quality_label": "average",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Canton.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 9,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_020",
+    "nama_proyek": "Fogo",
+    "quality_label": "average",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Fogo.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 10,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_021",
+    "nama_proyek": "C8ntinuum",
+    "quality_label": "average",
+    "profile_label": "hybrid",
+    "filename": "hybrid_c8ntinuum.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 13,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_022",
+    "nama_proyek": "ICN",
+    "quality_label": "average",
+    "profile_label": "technical_only",
+    "filename": "technical_only_ICN.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 14,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_023",
+    "nama_proyek": "Mindwave",
+    "quality_label": "average",
+    "profile_label": "hybrid",
+    "filename": "hybrid_mindwave.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 16,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_024",
+    "nama_proyek": "Rain",
+    "quality_label": "average",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_rain.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 15,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_025",
+    "nama_proyek": "SLT",
+    "quality_label": "average",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_SLT.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 22,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_026",
+    "nama_proyek": "Wibegram",
+    "quality_label": "average",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_wibegram.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 7,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_027",
+    "nama_proyek": "Minswap",
+    "quality_label": "average",
+    "profile_label": "technical_only",
+    "filename": "technical_only_minswap.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 6,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_028",
+    "nama_proyek": "Pieverse",
+    "quality_label": "average",
+    "profile_label": "hybrid",
+    "filename": "hybrid_pieverse.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 9,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_029",
+    "nama_proyek": "Ravencoin",
+    "quality_label": "average",
+    "profile_label": "technical_only",
+    "filename": "technical_only_Ravencoin.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 11,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_030",
+    "nama_proyek": "Seeker",
+    "quality_label": "average",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_seeker.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 12,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_031",
+    "nama_proyek": "Sentient",
+    "quality_label": "average",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Sentient.pdf",
+    "folder": "whitepapers/average/",
+    "jumlah_halaman": 14,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_032",
+    "nama_proyek": "AiXovia",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_AiXovia.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 12,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_033",
+    "nama_proyek": "BONK",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_bonk.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 13,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_034",
+    "nama_proyek": "BonkTon",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_bonkton.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 4,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_035",
+    "nama_proyek": "Dohrnii",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_dohrnii.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 1,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_036",
+    "nama_proyek": "Memecoin",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_memecoin.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 2,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_037",
+    "nama_proyek": "MemelaunchPad",
+    "quality_label": "poor",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Memelaunchpad.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 18,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_038",
+    "nama_proyek": "Memereum",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_memereum.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 15,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_039",
+    "nama_proyek": "PEW (Solana MemeCoin)",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_pew4sol.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 2,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_040",
+    "nama_proyek": "SaucerSwap",
+    "quality_label": "poor",
+    "profile_label": "technical_only",
+    "filename": "technical_only_saucerswap.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 4,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_041",
+    "nama_proyek": "SockCoin",
+    "quality_label": "poor",
+    "profile_label": "hybrid",
+    "filename": "hybrid_sockcoin.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 4,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_042",
+    "nama_proyek": "CryptoAllStars",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_allstars.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 10,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_043",
+    "nama_proyek": "WallStreetPonke",
+    "quality_label": "poor",
+    "profile_label": "hybrid",
+    "filename": "hybrid_wallstreetponke.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 13,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_044",
+    "nama_proyek": "WouldMeme",
+    "quality_label": "poor",
+    "profile_label": "investor_oriented",
+    "filename": "investor_oriented_wouldmeme.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 2,
+    "bahasa": "en"
+  },
+  {
+    "id": "WP_045",
+    "nama_proyek": "Pitbull",
+    "quality_label": "poor",
+    "profile_label": "hybrid",
+    "filename": "hybrid_Pitbull.pdf",
+    "folder": "whitepapers/poor/",
+    "jumlah_halaman": 23,
+    "bahasa": "en"
+  }
+]
